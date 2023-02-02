@@ -1,0 +1,26 @@
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+  }
+  
+  .auth > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  /* left side */
+  .a_left{
+      gap: 2rem;
+  }
+  
+  .a_left > img {
+    width: 4rem;
+    height: 4rem;
+  }

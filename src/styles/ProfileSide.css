@@ -1,0 +1,14 @@
+.profileside{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    height: 100vh;
+    overflow: auto;
+}
+
+@media screen and (max-width: 1100px){
+    .profileside{
+        display: none;
+    }
+}
