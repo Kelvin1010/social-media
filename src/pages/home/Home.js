@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from '../../components/head/Head';
 import PostSide from '../../components/postside/PostSide';
 import ProfileSide from '../../components/profileside/ProfileSide';
 import RightSide from '../../components/rightside/RightSide';

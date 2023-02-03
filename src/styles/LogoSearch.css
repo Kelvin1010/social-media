@@ -1,6 +1,7 @@
 .logosearch{
     display: flex;
     gap: 0.75rem;
+    margin-top: 5px;
 }
 
 .search{
@@ -20,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(106.23deg, #f99827, #f95f35 100%);
+    background: linear-gradient(98.63deg, #2584f9 0%, #3566f9 100%);
     border-radius: 5px;
     padding: 4px;
     color: white;
@@ -28,4 +29,9 @@
 
 .s-icon:hover{
     cursor: pointer;
+}
+
+.logo-img{
+    width: 48px;
+    height: 35px;
 }

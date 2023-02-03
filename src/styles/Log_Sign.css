@@ -4,6 +4,7 @@
     background-image: var(--buttonBg);
     background-size: 100%;
     background-repeat: repeat;
+    color: aliceblue;
 }
 
 .Webname>h6{

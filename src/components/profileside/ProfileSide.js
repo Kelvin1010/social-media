@@ -6,7 +6,7 @@ import '../../styles/ProfileSide.css';
 function ProfileSide() {
     return (
         <div className="profileside">
-            <LogoSearch/>
+            {/* <LogoSearch/> */}
             <ProfileCard/>
             <FollowersCard/>
         </div>

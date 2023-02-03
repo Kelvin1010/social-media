@@ -8,14 +8,16 @@ import '../../styles/Profile.css';
 function Profile() {
     return (
         <div className="profile">
-            <ProfileLeft/>
-
             <div className="profile_center">
                 <ProfileCard/>
-                <PostSide/>
+                <div 
+                    style={{
+                        width:'70vw !important'
+                    }}
+                >
+                    <PostSide/>
+                </div>
             </div>
-
-            <RightSide/>
         </div>
     )
 }

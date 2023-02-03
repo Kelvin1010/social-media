@@ -3,6 +3,7 @@ import Cover from "../../image/nen.jpg";
 import Profile from "../../image/boycry.jpg";
 import '../../styles/ProfileCard.css';
 import { Avatar } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function ProfileCard() {
     const ProfilePage = true;
@@ -10,14 +11,16 @@ function ProfileCard() {
         <div className="profilecard">
             <div className="profile_images">
                 <img src={Cover} alt="" />
-                <Avatar
-                    alt=""
-                    src={Profile}
-                    sx={{ width: 76, height: 76 }}
-                    style={{
-                        bottom: "2.5rem"
-                    }}
-                />
+                <Link to={'/profile/:id'}>
+                    <Avatar
+                        alt=""
+                        src={Profile}
+                        sx={{ width: 86, height: 86 }}
+                        style={{
+                            bottom: "2.5rem"
+                        }}
+                    />
+                </Link>
             </div>
 
             <div className="profile_name">

@@ -6,9 +6,11 @@ import Posts from '../posts/Posts';
 function PostSide() {
     return (
         <div className='postside'>
-            <div className="PostSide">
-                <PostShare/>
-                <Posts/>
+            <div className="postside_center">
+                <div className='core'>
+                    <PostShare/>
+                    <Posts/>
+                </div>
             </div>
         </div>
     )

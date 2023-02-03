@@ -7,6 +7,7 @@ import { UilSchedule } from "@iconscout/react-unicons";
 import { UilTimes } from "@iconscout/react-unicons";
 import ProfileImage from '../../image/boycry.jpg';
 import { Avatar } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 function PostShare() {
@@ -25,11 +26,13 @@ function PostShare() {
 
     return (
         <div className="postshare">
-            <Avatar
-                alt=""
-                src={ProfileImage}
-                className='img-postshare'
-            />
+            <Link to={'/profile/:id'}>
+                <Avatar
+                    alt=""
+                    src={ProfileImage}
+                    className='img-postshare'
+                />
+            </Link>
             <div>
                 <input type="text" placeholder="What's happening" />
                 {image && (

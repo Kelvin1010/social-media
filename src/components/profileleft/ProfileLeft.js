@@ -7,7 +7,7 @@ import '../../styles/ProfileLeft.css';
 function ProfileLeft() {
     return (
         <div className="profileleft">
-            <LogoSearch/>
+            {/* <LogoSearch/> */}
             <InfoCard/>
             <FollowersCard/>
         </div>

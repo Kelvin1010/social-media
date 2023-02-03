@@ -1,0 +1,64 @@
+.head{
+    width: 100vw;
+    height: 30px;
+    position: sticky;
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+}
+.head_left{
+    display: flex;
+}
+.head_center{
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_right{
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_icon{
+    width: 20%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0;
+    border-radius: 5px;
+}
+.nav_icon:hover{
+    background-color: gainsboro;
+}
+.nav_icon img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.nav_icon div.active{
+    background-color: gainsboro;
+    padding: 0.2rem 0;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1100px) {
+    .head_right{
+        display: none;
+    }
+    .head{
+        grid-template-columns: 18rem auto;
+        width: 94.5vw;
+    }
+}

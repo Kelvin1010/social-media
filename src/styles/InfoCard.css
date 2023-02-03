@@ -6,7 +6,8 @@
     background-color: var(--cardColor);
     padding: 1rem;
     border-radius: 1rem;
-    width: 90%;
+    width: 88%;
+    margin-top: 10px;
 }
 
 .info_head{
