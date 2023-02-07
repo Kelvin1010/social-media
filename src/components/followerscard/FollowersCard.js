@@ -10,7 +10,7 @@ function FollowersCard() {
 
             {Followers. map((follower, id)=>{
                 return(
-                    <div className="follower">
+                    <div className="follower" key={id}>
                         <div>
                             <Avatar alt={follower.name} src={follower.img} />
                             <div className="name">

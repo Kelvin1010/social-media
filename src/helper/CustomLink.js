@@ -9,7 +9,7 @@ function CustomLink({ to, children, ...props }) {
     return (
         <div className='nav_icon'>
             <div className={isActive ? "active" : ""}>
-                <Link to={to} {...props}>
+                <Link to={to} {...props} key={children}>
                     <img src={children} alt="" />
                 </Link>
             </div>

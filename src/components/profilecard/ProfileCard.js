@@ -4,6 +4,7 @@ import Profile from "../../image/boycry.jpg";
 import '../../styles/ProfileCard.css';
 import { Avatar } from '@mui/material';
 import { Link } from 'react-router-dom';
+import InfoCard from '../infocard/InfoCard';
 
 function ProfileCard() {
     const ProfilePage = true;
@@ -27,7 +28,7 @@ function ProfileCard() {
                 <span>Kelvin Ward</span>
                 <span>Developer</span>
             </div>
-
+            <InfoCard />
             <div className="follow_status">
                 <hr />
                 <div>

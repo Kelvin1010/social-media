@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import '../../styles/InfoCard.css';
 import AddIcon from '@mui/icons-material/Add';
 import ProfileModal from '../profilemodal/ProfileModal';
+import { useDispatch } from 'react-redux';
+import { logout } from '../../actions/AuthActions';
 
 function InfoCard() {
+    const dispatch = useDispatch();
     const [modalOpened, setModalOpened] = useState(false);
     return (
         <div className='infocard'>
@@ -42,8 +45,6 @@ function InfoCard() {
                 </span>
                 <span>Zainkeepscode inst</span>
             </div>
-
-            <button className="button logout-button">Logout</button>
         </div>
     )
 }

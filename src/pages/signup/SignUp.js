@@ -3,7 +3,7 @@ import '../../styles/Log_Sign.css';
 import '../../styles/Auth.css';
 import Logo from "../../image/logo.png";
 
-function SignUp() {
+function SignUp({data}) {
     return (
         <div className="auth">
             <div className="a_left">

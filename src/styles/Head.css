@@ -8,7 +8,7 @@
     align-items: center;
     margin-bottom: 5px;
     display: grid;
-    grid-template-columns: 18rem auto 20rem;
+    grid-template-columns: 18rem auto 24rem;
 }
 .head_left{
     display: flex;
@@ -24,7 +24,7 @@
     padding: 0 10px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .nav_icon{
