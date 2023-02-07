@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 const dotenv = require('dotenv');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const AuthRoute = require('./Routes/AuthRoute');
 const UserRoute = require('./Routes/UserRoute');
@@ -9,6 +10,8 @@ const PostRoute = require('./Routes/PostRoute');
 
 
 dotenv.config();
+app.use(express.json());
+app.use(cors());
 
 //middleware
 app.use(bodyParser.json({limit: '30mb', extended: true}))
